@@ -19,6 +19,18 @@ h4{
 }
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;700&display=swap');
 
+:root{
+    --primary-color:green;
+    --secondary-color:green;
+}
 body{
     font-family: 'Edu TAS Beginner', cursive;
+}
+
+/**  link  **/
+.primary-link{
+    color: var(--primary-color);
+}
+.secondary-link{
+    color: var(--secondary-color);
 }
