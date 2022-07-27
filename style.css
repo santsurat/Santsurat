@@ -1,4 +1,4 @@
-body
+uubody
  {
    color: black; 
 }
@@ -19,18 +19,27 @@ h4{
 }
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;700&display=swap');
 
-:root{
-    --primary-color:green;
-    --secondary-color:green;
+:root  {
+    --primary-color:rgb(0, 255, 0);
+    
 }
 body{
-    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Edu NSW ACT Foundation', cursive;
 }
 
 /**  link  **/
-.primary-link{
-    color: var(--primary-color);
+.link{
+    text-decoration: none;
 }
-.secondary-link{
-    color: var(--secondary-color);
+.link-primary  {
+   background-color: var(--primary-color);
+   border-radius: 0.5rem;
+   color:aliceblue
+}
+.link-secondary  {
+    background-color: var(--secondary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var
+    (--primary-color);
+    color:blue
 }
