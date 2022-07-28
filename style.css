@@ -20,11 +20,12 @@ h4{
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;700&display=swap');
 
 :root  {
-    --primary-color:rgb(0, 255, 0);
+    --primary-color:blueviolet;
     
 }
 body{
     font-family: 'Edu NSW ACT Foundation', cursive;
+    margin: 0px;
 }
 
 /**  link  **/
@@ -47,9 +48,26 @@ body{
     padding: 0rem 0.5rem;
 }
 .navigation {
-    background-color: blueviolet;
+    background-color: var(--primary-color);
+   border-radius: 0.5rem;
+   color:aliceblue;
+   border: 1rem;
 
 }
-.navigation.link{
+.navigation .link {
     color:white;
+}
+.navigation .nav-pills {
+    text-align: center;
+}
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin:auto;
+}
+.hero .hero-Naturephotography
+{
+    font-size: xx-large;
+    padding-top:1rem;
+    color:  var(grey);
 }
