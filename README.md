@@ -1,7 +1,7 @@
 # Santsurat protfolio
 
 Hey!Welcome to my gitHub profile
-This is a Nature view  site and Also about me,
+This is my web site and Also about me,
 
 I'm Sant Surat from jamshedpur,jharkhand.
 I'm Automobile engineer.
