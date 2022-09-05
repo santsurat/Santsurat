@@ -1,124 +1,151 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;700&display=swap');
-
-body
- {
-   color: black; 
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Kalam', cursive;
+    /* background-image: url(IMG_20220902_201853.jpg); */
 }
-h1{
-    color:blue;
-    text-align: center;
-    margin-bottom: 1rem;
+.background{
+    background-color: lightblue;
 }
-h2{
-    color:blue;
+nav{
+    /* position: fixed; 
+     width: 100%; */
+    padding-top: 30px;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    color: black;
+    font-size: 50px;
+    font-weight:100;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color:#f9004d;
+}
+.ow{
+  margin-top:3rem;
+  font-size: 35px;
+  text-align: center;
+}
+.container:hover{
+    color: orangered;
+    transition: .1s;
 }
 h3{
-    color:rgb(0, 255, 55);
+    font-size: 30px;
+    text-align: center;
 }
-h4{
-    color:rgb(0, 110, 255);
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
 }
-#lib-header{
-    color:rgb(255, 123, 0);
-}
-
-
-:root  {
-    --primary-color:blueviolet;
-    
-}
-body{
-    font-family: 'Edu NSW ACT Foundation', cursive;
-    margin: 0px;
-}
-
-/**  link  **/
-.link{
+nav ul li a{
+    color: #111;
     text-decoration: none;
-    padding: 0.5rem 0.5rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    font-weight:bold;
+    text-transform: capitalize;
 }
-.link-primary  {
-   background-color: var(--primary-color);
-   border-radius: 0.5rem;
-   color:aliceblue
+.blogs{
+    background-image: url(IMG_20220902_201853.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
 }
-.link-secondary  {
-    border-color: blue; background-color: white;color: blue;border-radius: 0.5rem;border: 2px solid lightblue;
-}
-.list-non-bullet{
-    list-style: none;
-}
-.list-item-inline{
-    display: inline;
-    padding: 0rem 0.5rem;
-}
-.navigation {
-    background-color: var(--primary-color);
-   border-radius: 0.5rem;
-   color:aliceblue;
-   border: 1rem;
-
-}
-.nav{
-    text-align: center;
-}
-.navigation .link {
-    color:white;
-}
-.navigation .nav-pills {
-    text-align: right;
-}
-.hero .hero-Naturephotography
-{
-    max-width: 350px;
-    display:block;
-    margin:auto;
-
-    font-size: xx-large;
-    padding-top:1rem;
-    color:  var(grey);
-}
-
-.ow {
-    background-color: var(--off-white);
-}
-/** footer **/
-.footer {
-    background-color: var(--primary-color);
-   border-radius: 0.5rem;
-   color:aliceblue;
-   border-top-right-radius: 1rem;
-}
-.footer .link {
-    color:white;
-}
-.footer .footer-pills {
-    text-align: center;
-}
-.footer .footer-header {
-    font-weight: bold;
-    font-size: large;
-}
-.footer ul{
-    padding-inline-start: 0px;
-}
-
-.footer{
-    padding: 0.5rem 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-.footer{
-    text-align: center;
-}
-.section {
-    text-align: center;
-}
-.h3 .img {
-    text-align: center;
+nav ul li a:hover{
+    color:#f9004d;
+    transition: .2s;
 }
 .container{
+    font-size: 30px;
     text-align: center;
+    background-color: aqua;
+    /* margin-top: 1rem; */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+
+    
+}
+.section{
+    margin-top: 2rem;
+}
+.container6{
+    font-size: 30px;
+    text-align: center;
+    background-color: aqua; 
+    border-radius: 1rem;  
+}
+.container6:hover{
+    color: orangered;
+    transition: .1s;
+}
+.container1{
+    font-size: 30px;
+}
+.container3{
+    color: orangered;
+   text-align: center;
+    font-size: 40px;
+    margin-top: 1rem;
+    background-color: lightblue;
+}
+.container4{
+    text-align: center;
+}
+.container5 ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 45px;
+    
+     
+}
+.container5 ul li a:hover{
+    color: green;
+    transition: .1s;
+}
+.tag{
+font-size: large;
+margin-top: 1rem;
+text-align: center;
+
+}
+.tag a{
+    border-style: solid; 
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    border: 2px solid orangered;
+}
+.tag1{
+text-align: center;
+    border-radius: 0.5rem;
+    background-color: white;
+    border: 2px solid orangered;
+   margin-left: 40rem;
+   margin-right: 40rem;
+}
+.sec2 {
+
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    font-size: 20px;
+
+}
+.section{
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 00.5rem;
+    margin-bottom: 5 rem;
+    padding-bottom: 2rem;
+    max-width: 500px;
+    margin: auto;
 }
