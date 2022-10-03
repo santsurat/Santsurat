@@ -7,6 +7,9 @@
     font-family: 'Kalam', cursive;
     /* background-image: url(IMG_20220902_201853.jpg); */
 }
+body{
+    background-color:lightblue;
+}
 .background{
     background-color: lightblue;
 }
