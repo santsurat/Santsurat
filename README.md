@@ -6,7 +6,7 @@
 
 - 🌱 I’m currently learning **React Native & Web Development**
 
-- 👨‍💻 All of my projects are available at [santsurat.netlify.com](https://santsurat.netlify.app/)
+- 👨‍💻 Some of my projects are available at [santsurat.netlify.com](https://santsurat.netlify.app/)
 
 - 💬 Ask me about **React Native**
 
